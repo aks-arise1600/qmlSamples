@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/bg1.png</file>
+        <file>images/GreyWhite.png</file>
+        <file>images/bg2.png</file>
+        <file>images/apaulsoftware_1.png</file>
+        <file>images/user-experience.png</file>
+        <file>images/back.png</file>
+        <file>employee_details.xml</file>
+        <file>images/Logo-2.png</file>
+    </qresource>
+</RCC>

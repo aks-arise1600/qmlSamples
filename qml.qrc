@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>TopBar.qml</file>
+        <file>BottomBar.qml</file>
+        <file>SwipeWidget.qml</file>
+        <file>TabWidget.qml</file>
+        <file>Progress_Bar.qml</file>
+        <file>BarChart.qml</file>
+        <file>TabledData.qml</file>
+        <file>CircularProgressBar.qml</file>
+        <file>VideoPlayer.qml</file>
+    </qresource>
+</RCC>
