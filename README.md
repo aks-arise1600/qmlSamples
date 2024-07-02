@@ -26,7 +26,7 @@ qt/qml based samples have include examples of :
 		
 ## cmake Build
 
-		https://github.com/anil-arise1600/qmlSamples.git
+		git clone https://github.com/aks-arise1600/qmlSamples.git
 		cd qmlSamples
 		mkdir cbuild && cd cbuild
 		cmake ..
@@ -34,7 +34,7 @@ qt/qml based samples have include examples of :
 
 ## qmake Build
 
-		https://github.com/anil-arise1600/qmlSamples.git
+		git clone https://github.com/aks-arise1600/qmlSamples.git
 		cd qmlSamples
 		mkdir qbuild && cd qbuild
 		qmake ..
