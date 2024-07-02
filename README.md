@@ -12,7 +12,7 @@ qt/qml based samples have include examples of :
 * Label Clickable using [MouseArea](https://doc.qt.io/qt-6/qml-qtquick-mousearea.html)
 * Chart View
 * XML Read and create list view using [XmlListModel](https://doc.qt.io/qt-6/qml-qtqml-xmllistmodel-xmllistmodel.html)
-* Progress Bar(Horizontal and Circular) & [Slider](https://doc.qt.io/qt-6/qml-qtquick-controls-slider.html)
+* Progress Bar(Horizontal and Circular)
 * Swipe view using [SwipeView](https://doc.qt.io/qt-6/qml-qtquick-controls-swipeview.html)
 * RTSP Streamer using [Video](https://doc.qt.io/qt-5/qml-qtmultimedia-video.html)
 
