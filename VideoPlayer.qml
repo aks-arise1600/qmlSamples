@@ -15,7 +15,9 @@ Rectangle {
          id: video
          width : min_width - 12
          height : parent.height - 32
+//         source: "gst-pipeline: rtspsrc location=rtsp://admin:admin123@192.168.10.10/mpeg4 ! rtph264depay ! h264parse ! avdec_h264 ! videoconvert ! waylandsink name=qtvideosink"
          source: "rtsp://admin:admin123@192.168.10.10/mpeg4"
+//         source: "file:///home/root/Birds_9.mp4"
 
          anchors{
              top: parent.top

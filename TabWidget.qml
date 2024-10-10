@@ -63,12 +63,24 @@ Item {
 
             Text {
                 id: one_tab_text
-                text: qsTr("ONE'S WIDGET")
+                text: qsTr("ONE'S WIDGET (Analog Clock)")
                 font.family: "Tibetan Machine Uni"
                 style: Text.Outline
-                anchors.centerIn: parent
+                anchors{
+                    top:parent.top
+                    topMargin: 5
+                    horizontalCenter: parent.horizontalCenter
+                }
                 color: "#a4c805"
                 font.pixelSize: 40
+            }
+
+            Clock{
+                id:analogClock
+                anchors{
+                    top:one_tab_text.bottom
+                    horizontalCenter: parent.horizontalCenter
+                }
             }
         }
 

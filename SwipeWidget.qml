@@ -48,9 +48,12 @@ Item {
                 }
             }
 
+
+
             Progress_Bar {
                 id: p_bar
                 anchors.centerIn: parent
+
             }
         }
 

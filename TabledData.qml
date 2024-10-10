@@ -6,7 +6,7 @@ import QtQuick.XmlListModel 2.0
 Item {
     id: tabled_item
 
-    width: parent.width-350
+    width: parent.width-100
     height: parent.height-200
 
     XmlListModel {
@@ -44,16 +44,17 @@ Item {
         TableViewColumn {
             role: "emply_role"
             title: "EMPLOYEE ROLE"
-            width: 200
+            width: 250
         }
         TableViewColumn {
             role: "emply_name"
             title: "EMPLOYEE NAME"
-            width: 200
+            width: 250
         }
         TableViewColumn {
             role: "check"
             title: "STATUS"
+            width: 50
             delegate: CheckBox {
                 checked: (styleData.value == 1) ? true: false
 
@@ -63,8 +64,10 @@ Item {
 
         itemDelegate: Item {
             id: item_
-            height: 30
+            height: 40
+//            anchors.topMargin: 5
             Text {
+//                height: 35
                 anchors.verticalCenter: parent.verticalCenter
                 //color: styleData.color
                 elide: Text.ElideRight

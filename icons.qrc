@@ -8,5 +8,9 @@
         <file>images/back.png</file>
         <file>employee_details.xml</file>
         <file>images/Logo-2.png</file>
+        <file>images/second.png</file>
+        <file>images/minute.png</file>
+        <file>images/hour.png</file>
+        <file>images/clock-face.png</file>
     </qresource>
 </RCC>
