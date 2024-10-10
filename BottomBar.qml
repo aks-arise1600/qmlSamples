@@ -23,7 +23,7 @@ Rectangle {
         }
         font.pixelSize: 10
         color: "white"
-        text: qsTr("A Paul Software System Pvt. Ltd.")
+        text: qsTr("XYZ abc Pvt. Ltd.")
     }
 
     Button {
